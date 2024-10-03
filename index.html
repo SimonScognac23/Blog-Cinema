@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Aggiungi qui -->
+
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between w-100">
+                <div class="d-flex justify-content-center flex-grow-1">
+                    <span class="navbar-brand mb-0 h1">Blog Cinema</span> <!-- Nome del blog -->
+                </div>
+
+
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto"> <!-- Menu di navigazione allineato a destra -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link h1 navbar-brand" href="#film">Film</a>
+                        <!-- Modificato per puntare alla sezione film -->
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+
+
+
+
+
+
+    <header class="hero">
+        <h1 class="display-4 mb-0 text-deep-white text-bold">Benvenuti nel Blog Cinema</h1>
+    </header>
+
+    <!-- Sezione Film -->
+    <section id="film" class="container my-5">
+        <!-- Titolo della sezione, centrato -->
+        <h2 class="text-center">Film Consigliati</h2>
+
+        <!-- Righe di contenuto con margine in cima -->
+        <div class="row mt-4">
+
+            <!-- Colonna per il primo film, utilizza col-md-4 per un layout responsivo -->
+            <div class="col-md-4">
+                <!-- Inizia la card del primo film -->
+                <div class="card">
+                    <!-- Immagine del film, cliccabile e porta al sito Rotten Tomatoes -->
+                    <img src="https://www.antoniogenna.net/doppiaggio/film/ilcacciatore1.jpg" class="card-img-top"
+                        alt="The Deer Hunter 1978" onclick="window.location.href='https://www.rottentomatoes.com'">
+                    <!-- Corpo della card -->
+                    <div class="card-body">
+                        <!-- Titolo del film -->
+                        <h4 class="card-title mt-4">The Deer Hunter (1978)</h4>
+                        <!-- Breve descrizione del film -->
+                        <p class="card-text">"Il cacciatore" (1978), diretto da Michael Cimino, è un film drammatico
+                            ambientato durante e dopo la guerra del Vietnam. Racconta la storia di tre amici operai di
+                            una
+                            piccola città della Pennsylvania, le cui vite vengono profondamente segnate dall'esperienza
+                            della guerra. La pellicola esplora temi come l'amicizia, il trauma e la perdita
+                            dell'innocenza.
+                        </p>
+                    </div>
+                </div>
+                <!-- Fine della card -->
+            </div>
+            <!-- Fine della colonna -->
+
+
+
+
+            <!-- Colonna per il secondo film -->
+            <div class="col-md-4">
+                <!-- Inizia la card del secondo film -->
+                <div class="card">
+                    <!-- Immagine del film, cliccabile e porta al sito Rotten Tomatoes -->
+                    <img src="https://m.media-amazon.com/images/M/MV5BNjYwNTA3MDIyMl5BMl5BanBnXkFtZTYwMjIxNjA3._V1_FMjpg_UX1000_.jpg"
+                        class="card-img-top" alt="Film 2"
+                        onclick="window.location.href='https://www.rottentomatoes.com'">
+                    <!-- Corpo della card -->
+                    <div class="card-body">
+                        <!-- Titolo del film -->
+                        <h4 class="card-title ">Napoleon Dynamite (2004)</h4>
+                        <!-- Breve descrizione del film -->
+                        <p class="card-text">"Napoleon Dynamite" (2004) è una commedia indipendente che racconta la vita
+                            stravagante di un adolescente impacciato e bizzarro, Napoleon, che vive in una piccola città
+                            americana. Tra avventure scolastiche e situazioni assurde, il film segue il suo tentativo di
+                            aiutare l'amico Pedro a diventare presidente del consiglio studentesco, mentre cerca di
+                            affrontare le dinamiche familiari e sociali in modo esilarante e unico. La pellicola è
+                            diventata un cult per il suo umorismo surreale e i personaggi eccentrici.</p>
+                    </div>
+                </div>
+                <!-- Fine della card -->
+            </div>
+            <!-- Fine della colonna -->
+
+
+
+
+
+            <!-- Colonna per il terzo film -->
+            <div class="col-md-4">
+                <!-- Inizia la card del terzo film -->
+                <div class="card">
+                    <!-- Immagine del film, cliccabile e porta al sito Rotten Tomatoes -->
+                    <img src="https://th.bing.com/th/id/OIP.GQlVvRCRPNWWZpPNvDu4mQHaKf?rs=1&pid=ImgDetMain"
+                        class="card-img-top" alt="Film 3"
+                        onclick="window.location.href='https://www.rottentomatoes.com'">
+                    <!-- Corpo della card -->
+                    <div class="card-body">
+                        <!-- Titolo del film -->
+                        <h4 class="card-title mt-4">Phenomena (1985)</h4>
+                        <!-- Breve descrizione del film -->
+                        <p class="card-text">
+                            "Phenomena" (1985), diretto da Dario Argento, è un horror-thriller che segue la giovane
+                            Jennifer, una ragazza con il misterioso potere di comunicare con gli insetti. Viene mandata
+                            in un collegio svizzero, dove scopre che un serial killer sta terrorizzando la zona. Con
+                            l'aiuto del suo dono e di un entomologo, cerca di risolvere il mistero dietro le orribili
+                            morti. Il film combina elementi di paranormale, investigazione e violenza stilizzata, tipici
+                            del cinema di Argento.
+                        </p>
+                    </div>
+                </div>
+                <!-- Fine della card -->
+            </div>
+            <!-- Fine della colonna -->
+
+        </div>
+        <!-- Fine della riga -->
+    </section>
+    <!-- Fine della sezione -->
+
+
+
+    <!doctype html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog Cinema</title>
+
+        <!-- Collegamento al CSS di Bootstrap per la stilizzazione -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"> <!-- Collegamento al file CSS personalizzato -->
+
+    </head>
+
+    <body>
+        <!-- Sezione Contatti -->
+        <section id="contact" class="container my-4">
+            <h2 class="text-center">Lavora con noi</h2> <!-- Titolo della sezione centrato -->
+
+            <!-- Modulo per raccogliere i dettagli di contatto -->
+            <form class="mt-4" data-bs-toggle="modal" data-bs-target="#thankModal">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <!-- Campo di input per l'email, obbligatorio -->
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <!-- Campo di input per la password, obbligatorio -->
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <!-- Pulsante per inviare il modulo -->
+                <button type="submit" class="btn btn-primary">Invia</button>
+            </form>
+        </section>
+
+        <!-- Modal per mostrare il messaggio di ringraziamento -->
+        <div class="modal fade" id="thankModal" tabindex="-1" aria-labelledby="thankModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="thankModalLabel">Grazie!</h5> <!-- Titolo del modal -->
+                        <!-- Pulsante per chiudere il modal -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Messaggio di conferma -->
+                        Grazie per averci contattato!
+                    </div>
+                    <div class="modal-footer">
+                        <!-- Pulsante per chiudere il modal -->
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="bg-dark text-light text-center py-3">
+            <p>P.IVA: 12345678901</p>
+            <p>Proprietario del blog: Simone Scognamiglio</p>
+            <div>
+                <a href="https://facebook.com" class="text-light mx-3" aria-label="Facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://linkedin.com" class="text-light mx-3" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com" class="text-light mx-3" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
